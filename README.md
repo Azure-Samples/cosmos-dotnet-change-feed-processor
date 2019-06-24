@@ -5,7 +5,6 @@ author: maquaran
 ---
 
 # Consuming Azure Cosmos DB Change Feed
-This sample shows you how to use the Microsoft Azure Cosmos DB service to store and access data from an ASP.NET Core MVC application hosted on Azure App Service or running locally in your computer.
 This sample shows you how yo use the [Azure Cosmos DB SDK](https://github.com/Azure/azure-cosmos-dotnet-v3) to consume Azure Cosmos DB's [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed) and react to changes happening in a container.
 
 ## Requirements
