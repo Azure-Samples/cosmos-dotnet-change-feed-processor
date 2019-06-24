@@ -43,7 +43,7 @@ The Change Feed Processor works as a push model. Whenever there are new changes 
 7. Repeat step 5 with different numbers or type `exit` to stop.
 
 ## About the code
-The code included in this sample is intended to get you going with a simple ASP.NET Core MVC application that connects to Azure Cosmos DB. It is not intended to be a set of best practices on how to build scalable enterprise grade web applications. This is beyond the scope of this quick start sample. 
+The code included in this sample is intended to get you going with consuming the Change Feed and react to changes. It is not intended to be a set of best practices on how to build scalable enterprise grade applications. This is beyond the scope of this quick start sample. 
 
 ## More information
 
