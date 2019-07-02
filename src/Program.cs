@@ -25,6 +25,7 @@ namespace ChangeFeedSample
             await GenerateItemsAsync(cosmosClient, processor, configuration);
         }
 
+        // <Delegate>
         /// <summary>
         /// The delegate receives batches of changes as they are generated in the change feed and can process them.
         /// </summary>
@@ -40,6 +41,7 @@ namespace ChangeFeedSample
 
             Console.WriteLine("Finished handling changes.");
         }
+        // </Delegate>
 
         /// <summary>
         /// Create required containers for the sample.
@@ -67,6 +69,7 @@ namespace ChangeFeedSample
             await database.CreateContainerIfNotExistsAsync(new ContainerProperties(leaseContainerName, "/id"));
         }
 
+        // <DefineProcessor>
         /// <summary>
         /// Start the Change Feed Processor to listen for changes and process them with the HandlerChangesAsync implementation.
         /// </summary>
@@ -90,6 +93,7 @@ namespace ChangeFeedSample
             Console.WriteLine("Change Feed Processor started.");
             return changeFeedProcessor;
         }
+        // </DefineProcessor>
 
         /// <summary>
         /// Generate sample items based on user input.
