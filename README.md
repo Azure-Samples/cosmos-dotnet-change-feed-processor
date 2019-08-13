@@ -1,11 +1,13 @@
 ---
-topic: sample
 languages:
-  - csharp
+- csharp
 products:
-  - aspnet-core
-  - azure-cosmos-db
+- azure
+- azure-cosmos-db
+page_type: sample
+description: "This sample shows you how to use the Microsoft Azure Cosmos DB SDK to react to changes happening in the Microsoft Azure Cosmos DB service"
 ---
+
 
 # Consuming the Azure Cosmos DB Change Feed with Change Feed Processor
 This sample shows you how yo use the [Azure Cosmos DB SDK](https://github.com/Azure/azure-cosmos-dotnet-v3) to consume Azure Cosmos DB's [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed) and react to changes happening in a container.
