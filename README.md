@@ -5,7 +5,7 @@ products:
 - azure
 - azure-cosmos-db
 page_type: sample
-description: "This sample shows you how to use the Microsoft Azure Cosmos DB SDK to react to changes happening in the Microsoft Azure Cosmos DB service"
+description: "This sample shows you how to use the Azure Cosmos DB SDK to react to changes happening in the Azure Cosmos DB service."
 ---
 
 
