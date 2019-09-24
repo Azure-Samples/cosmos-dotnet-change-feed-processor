@@ -14,7 +14,7 @@ This sample shows you how yo use the [Azure Cosmos DB SDK](https://github.com/Az
 
 ## Requirements
 
-- An active Azure Cosmos account or the [Azure Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator) - If you don't have an account, refer to the [Create a database account](https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-dotnet#create-an-azure-cosmos-db-account) article.
+- An active Azure Cosmos account or the [Azure Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator) - If you don't have an account, refer to the [Create a database account](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet#create-an-azure-cosmos-db-account) article.
 - [NET Core SDK](https://dotnet.microsoft.com/download) or Visual Studio 2017 (or higher)
 
 ## Description
