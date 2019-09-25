@@ -53,4 +53,4 @@ The code included in this sample is intended to get you going with consuming the
 
 - [Azure Cosmos DB Documentation](https://docs.microsoft.com/azure/cosmos-db)
 - [Azure Cosmos DB .NET SDK](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet)
-- [Azure Cosmos DB .NET SDK Reference Documentation](https://docs.microsoft.com/dotnet/api/overview/azure/cosmosdb?view=azure-dotnet)
+- [Azure Cosmos DB .NET SDK Reference Documentation](https://docs.microsoft.com/dotnet/api/overview/azure/cosmosdb)
