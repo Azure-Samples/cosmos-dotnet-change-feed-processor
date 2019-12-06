@@ -71,7 +71,7 @@ namespace ChangeFeedSample
 
         // <DefineProcessor>
         /// <summary>
-        /// Start the Change Feed Processor to listen for changes and process them with the HandlerChangesAsync implementation.
+        /// Start the Change Feed Processor to listen for changes and process them with the HandleChangesAsync implementation.
         /// </summary>
         private static async Task<ChangeFeedProcessor> StartChangeFeedProcessorAsync(
             CosmosClient cosmosClient,
