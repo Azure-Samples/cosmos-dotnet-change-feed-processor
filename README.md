@@ -39,7 +39,7 @@ The Change Feed Processor works as a push model. Whenever there are new changes 
 
 1. Clone this repository or download the zip file.
 2. Retrieve the **Connection String** value from the Keys blade of your Azure Cosmos account in the Azure portal. For more information on obtaining the Connection String for your Azure Cosmos account refer to [View, copy, and regenerate access keys and passwords](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#master-keys).
-    * If you are working with the Azure Cosmos DB Emulator, refer to [Develop locally with the Azure Cosmos Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator#authenticating-requests).
+    * If you are working with the Azure Cosmos DB Emulator, refer to [Develop locally with the Azure Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator#authenticating-requests).
 3. In the [appSettings.json](./src/appSettings.json) file, located in the project root, find **ConnectionString** and replace the placeholder value with the value obtained for your account.
 4. Run `dotnet run` or press **F5** from within Visual Studio.
 5. Type an amount of random records to be generated in `SourceContainerName` (for example, 10), and press ENTER. The sample will write those records in the container.
