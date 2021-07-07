@@ -83,7 +83,7 @@ namespace ChangeFeedSample
 
             Container leaseContainer = cosmosClient.GetContainer(databaseName, leaseContainerName);
             ChangeFeedProcessor changeFeedProcessor = cosmosClient.GetContainer(databaseName, sourceContainerName)
-                .GetChangeFeedProcessorBuilder<ToDoItem>(processorName: "changeFeedSample", HandleChangesAsync)
+                .GetChangeFeedProcessorBuilder<ToDoItem>(processorName: "changeFeedSample", onChangesDelegate: HandleChangesAsync)
                     .WithInstanceName("consoleHost")
                     .WithLeaseContainer(leaseContainer)
                     .Build();
