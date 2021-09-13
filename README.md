@@ -31,7 +31,11 @@ The code creates an instance of a Change Feed Processor and defines a delegate t
 
 Where `HandleChangesAsync` is a delegate with a signature of:
 
-    async Task HandleChangesAsync(IReadOnlyCollection<ToDoItem> changes, CancellationToken cancellationToken)
+
+    async Task HandleChangesAsync(
+        ChangeFeedProcessorContext context,
+        IReadOnlyCollection<ToDoItem> changes, 
+        CancellationToken cancellationToken)
 
 The Change Feed Processor works as a push model. Whenever there are new changes in `SourceContainerName`, the HandleChangesAsync delegate will be called and its code will be able to process the list of changes. As more changes keep happening, new invocations will occur.
 
